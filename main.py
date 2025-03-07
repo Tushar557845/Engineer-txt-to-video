@@ -16,9 +16,9 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 
 # Bot Configuration
-API_ID = "21705536" # Replace with your API ID
-API_HASH = "c5bb241f6e3ecf33fe68a444e288de2d"  # Replace with your API HASH
-BOT_TOKEN = "7694154149:AAF2RNkhIkTnYqt4uG9AaqQyJwHKQp5fzpE"  # Replace with your Bot Token
+API_ID = "24473318" # Replace with your API ID
+API_HASH = "e7dd0576c5ac0ff8f90971d6bb04c8f5"  # Replace with your API HASH
+BOT_TOKEN = ""  # Replace with your Bot Token
 
 # Initialize the bot
 bot = Client(
@@ -29,7 +29,7 @@ bot = Client(
 )
 
 # Sudo (Owner) ID
-SUDO_USERS = [1147534909]  # Replace with your Telegram ID
+SUDO_USERS = [5840594311]  # Replace with your Telegram ID
 
 # Data storage for authorized users, channels, and groups
 AUTHORIZED_USERS = set()
